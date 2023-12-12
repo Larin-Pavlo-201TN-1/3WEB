@@ -50,7 +50,7 @@ h2{
 form{
     border: 2px solid black;
     position: relative;
-
+    padding-bottom: 60px;
 }
 
 label{
@@ -68,5 +68,21 @@ input{
 
 form .reg{
     position: absolute;
+    width: 40%;
+    height: 30px;
+    right: 10px;
+    bottom: 20px;
+}
 
+footer{
+    background-color: rgba(34, 32, 38, 0.95);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+}
+
+.secure::before{
+    content: "\00a9";
 }

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1> Мій особистий блог <span>Ларін Павло</span></h1>
+            <div>
+                <a href="#">Вхід</a>
+                <a href="#">Реєстрація</a>
+            </div>
+        </nav>
+    </header>
+    <div class="conteiner">
+        <div class="two">
+            <div class="create">
+                <h2>Create a Repository</h2>
+                <p>From scratch --Create a new local repository</p>
+                <p class="comand">$ git init [project name]</p>
+                <p>Download from an existing repositiry</p>
+                <p class="comand">$ git clone my_url</p>
+            </div>
+    
+            <div class="observe">
+                <h2>Observe your Repository</h2>
+                <p>List new or modified files not yet commited</p>
+                <p class="comand">$git status</p>
+                <p>Show the changes to files not yet staged</p>
+                <p class="comand">$ git diff</p>
+                <p>Show the changes to staged files</p>
+                <p class="comand">$ git diff --cached</p>
+                <p>Show all staged and unstaged file changes</p>
+                <p class="comand">$ git diff HEAD</p>
+                <p>Show the changes between two commir ids</p>
+                <p class="comand">$ Git diff commit1 commit2</p>
+                <p>List the change dates and authors fora file</p>
+                <p class="comand">$ git blame [file]</p>
+                <p>Show the fle changes for a commit id and/or fie</p>
+                <p class="comand">$ git show [commit] : [file]</p>
+                <p>Show full change history</p>
+                <p class="comand">$ git log</p>
+                <p>Show change history for file/directory inducing ffs</p>
+                <p class="comand">$ git log -p [file/directory]</p>
+            </div>
+        </div>
+        <div class="branch">
+            <h2>Working with Branches</h2>
+            <p>List all local branches.</p>
+            <p class="comand">$ git branch</p>
+            <p>List all branches, jocal and remote</p>
+            <p class="comand">$ git branch -av</p>
+            <p>Switch to a branch, my_branch, and update working directory</p>
+            <p class="comand">$ git checkout my_branch</p>
+            <p>Create a new branch called new_branch</p>
+            <p class="comand">$ git branch new_branch</p>
+            <p>Delete the branch called my_branch</p>
+            <p class="comand">$ git branch -d my branch</p>
+            <p>Merge branch_2 into branch_b</p>
+            <p class="comand">$ git checkout branch_b</p>
+            <p class="comand">$ git merge branch_a</p>
+            <p>Tag the current commit</p>
+            <p class="comand">$ git tag my_tag</p>
+        </div>
+        <div class="change">
+            <h2>Make a change</h2>
+            <p>Stages the file, ready for commit</p>
+            <p class="comand">$ git add [file]</p>
+            <p>Stage all changed files, ready for commit</p>
+            <p class="comand">$ git add</p>
+            <p>Commit al staged files to versioned history</p>
+            <p class="comand">$ git commit -m “commit message”</p>
+            <p>Commit al your tracked files to versioned history</p>
+            <p class="comand">$ git commit -am “commit message”</p>
+            <p>Unstages file, keeping the file changes</p>
+            <p class="comand">$ git reset [file]</p>
+            <p>Revert everything to the last commit</p>
+            <p class="comand">$ git reset --hard</p>
+        </div>
+        <div class="two">
+            <div class="synchronize">
+                <h2>Synchronize</h2>
+                <p>Get tne latest changes from origin (no merge)</p>
+                <p class="comand">$ git fetch</p>
+                <p>Fetch the latest changes from origin and merge</p>
+                <p class="comand">$ git pull</p>
+                <p>Fetch the latest changes from origin andrebase</p>
+                <p class="comand">$ git pull --rebase</p>
+                <p>Push local changes to the origin</p>
+                <p class="comand">$ git push</p>
+            </div>
+            <div class="finally">
+                <h2>Finally!</h2>
+                <p>When in doubt, use git help</p>
+                <p class="comand">$ git command --help</p>
+                <p>Or vist <a href="https://training.github.com/">https://training.github.com/</a> for offical GitHub training</p>
+            </div>
+        </div>
+    </div>
+
+    <p></p>
+    <p class="comand"></p>
+
+    <footer>
+        <div>
+            <p class="secure">Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
